@@ -5,7 +5,7 @@ class ImageIterator:
     def __init__(self, annotation_path: str) -> None:
         '''
         Constructor. Create class attributes
-        :param annotation_path:
+        :param annotation_path: Path to folder where annotation will be
         '''
         self.annotation_path = annotation_path
         self.paths = self.load_annotation()

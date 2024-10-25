@@ -5,8 +5,8 @@ import csv
 def create_annotation(images_path: str, annotation_path: str) -> None:
     '''
     Creates (if necessary) a csv file and writes rows with image path data
-    :param images_path:
-    :param annotation_path:
+    :param images_path: Path to image folder
+    :param annotation_path: Path to folder where annotation will be
     :return: None
     '''
     with open(annotation_path, 'w', newline = '', encoding = 'utf-8') as annotation:

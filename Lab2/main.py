@@ -7,7 +7,7 @@ import argparse
 def create_parse () -> argparse.Namespace:
     '''
     Reads args from the terminal
-    :return: args
+    :return args: args for terminal
     '''
     parser = argparse.ArgumentParser()
     parser.add_argument('keyword', type = str, help = 'Keyword to search', default = 'hedgehog')
